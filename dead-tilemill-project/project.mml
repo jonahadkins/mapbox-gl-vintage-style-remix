@@ -1,0 +1,217 @@
+{
+  "bounds": [
+    -129.1113,
+    3.8204,
+    -52.998,
+    53.0412
+  ],
+  "center": [
+    -96.2402,
+    36.985,
+    4
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 4,
+  "maxzoom": 7,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "States",
+    "Lakes",
+    "Labels"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "paper",
+      "class": "",
+      "Datasource": {
+        "file": "layers\\world_extent_wgs84.geojson",
+        "id": "paper",
+        "project": "NMM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "paper",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "Bathymetry",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-bathymetry.zip",
+        "id": "Bathymetry",
+        "project": "NMM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Bathymetry"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999990007,
+        -55.91477792755927,
+        180,
+        83.63432689077344
+      ],
+      "id": "States",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-shp.zip",
+        "id": "States",
+        "project": "NMM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "States"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -179.99998938710374,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "Graticules",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-graticules-5.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Graticules"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -166.31511230468752,
+        9.145135809369098,
+        -27.2623779296875,
+        82.63966705936913
+      ],
+      "id": "Rivers",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-rivers-north-america.zip",
+        "id": "Rivers",
+        "project": "NMM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Rivers"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -165.96561893930925,
+        -50.6696248183775,
+        176.0938293028783,
+        81.95527752537252
+      ],
+      "id": "Major_Lakes",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-lakes.zip",
+        "id": "Major_Lakes",
+        "project": "NMM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Major_Lakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999990007,
+        -55.91477792755927,
+        180,
+        83.63432689077344
+      ],
+      "id": "State_Labels",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-shp.zip",
+        "id": "State_Labels",
+        "project": "NMM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "State_Labels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "id": "Country_Labels",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "id": "Country_Labels",
+        "project": "NMM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Country_Labels"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -179.99999999999991,
+        -85.051,
+        180,
+        83.63410065300008
+      ],
+      "id": "ne10mcoastline",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\jadkins\\Documents\\Projects\\Esri\\Data\\Natural_Earth\\ne_10\\10m_physical\\ne_10m_coastline.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mcoastline",
+      "status": "off"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "New Military Map",
+  "description": "Symbology From Johnson's New Military Map",
+  "attribution": ""
+}

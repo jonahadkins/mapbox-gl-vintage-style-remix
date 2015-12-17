@@ -1,0 +1,18 @@
+@black: #000;
+@tan: #fde9c4;
+
+
+#Major_Lakes{
+[Name='Lake Michigan']{polygon-fill:@tan;}
+[Name='Lake Huron']{polygon-fill:@tan;}
+[Name='Lake Ontario']{polygon-fill:@tan;}
+[Name='Lake Erie']{polygon-fill:@tan;}
+[Name='Lake Superior']{polygon-fill:@tan;}
+[Name='Great Salt Lake']{polygon-fill:@tan;}
+[Name='Lake Okeechobee']{polygon-fill:@tan;}
+[Name='Lake Oahe']{polygon-fill:@tan;}
+//{
+//line-color:@black;
+//line-cap:butt;
+//line-width:0.5;
+}

@@ -1,0 +1,114 @@
+#Country_Labels {
+  text-face-name: 'Baskerville Old Face Regular';
+  text-size:9;
+  text-transform:uppercase;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-name: "[NAME]";
+  text-character-spacing:18;
+  text-avoid-edges: false;
+
+   [ScaleRank<2][zoom=2] {
+    text-name: "[NAME]";
+  }
+  [ScaleRank<3][zoom=3] {
+    text-name: "[NAME]";
+    text-size:10;
+  }
+  [ScaleRank<4][zoom=4] {
+    text-name: "[NAME]";
+    text-size:11;
+  }
+  [ScaleRank<5][zoom=5] {
+    text-name: "[NAME]";
+    text-size:12;
+    text-character-spacing:1;
+    text-line-spacing:1;
+  }
+  [ScaleRank<9][zoom>5] {
+    text-name: "[NAME]";
+    text-size:14;
+    text-character-spacing:2;
+    text-line-spacing:2;
+  }
+
+}
+
+
+
+
+
+
+#State_Labels
+[ISO="USA"][zoom>4]
+ {text-name:[NAME_1]; text-face-name: 'Baskerville Old Face Regular'; text-size:6;
+  text-transform:uppercase;}
+#State_Labels
+[zoom=4]
+ {text-name:[NAME_0]; text-face-name: 'Baskerville Old Face Regular'; text-size:18;
+  text-character-spacing:18;
+  text-transform:uppercase;}
+#State_Labels[ISO="USA"][ScaleRank=4][zoom>3],
+#State_Labels[ISO="USA"][ScaleRank=5][zoom>4],
+#State_Labels[ISO="USA"][ScaleRank>=6][zoom>5]
+#State_Labels{
+
+  text-name:[NAME_1];
+  text-face-name: 'Baskerville Old Face Regular';
+  text-size:24;
+  //text-character-spacing:10;
+  text-transform:uppercase;
+  text-halo-fill: white;
+  //text-halo-opacity: 0.5;
+  text-halo-radius:0;
+
+    }
+  /*
+  [ScaleRank<2][zoom=2] {
+    text-name: "[ABBREV]";
+  }
+  [ScaleRank<3][zoom=3] {
+    text-name: "[ABBREV]";
+    text-size:10;
+  }
+  [ScaleRank<4][zoom=4] {
+    text-name: "[NAME]";
+    text-size:11;
+  }
+  [ScaleRank<5][zoom=5] {
+    text-name: "[NAME]";
+    text-size:12;
+    text-character-spacing:1;
+    text-line-spacing:1;
+  }
+  [ScaleRank<9][zoom>5] {
+    text-name: "[NAME]";
+    text-size:14;
+    text-character-spacing:2;
+    text-line-spacing:2;
+  }
+
+}}]
+ */
+/* ---- CITIES ---- 
+#cities[WORLDCITY=1][zoom>4] {
+  text-name: "[NAME]";
+  text-fill: @line * 0.3;
+  text-face-name:@futura_med;
+  text-size: 11;
+  text-dy: -4;
+  text-halo-fill: rgba(255,255,255,0.5);
+  text-halo-radius: 1;
+  point-file: url(icons/circle-7.png);
+}
+
+#cities[ADM0CAP=1][zoom>3] {
+  text-name: "[NAME]";
+  text-fill: @line * 0.3;
+  text-face-name:@futura_med;
+  text-size: 11;
+  text-dy: -5;
+  text-halo-fill: rgba(255,255,255,0.5);
+  text-halo-radius: 1;
+  point-file: url(icons/star-10.png);
+}
+*/

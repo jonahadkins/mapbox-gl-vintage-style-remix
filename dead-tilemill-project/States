@@ -1,0 +1,71 @@
+@black: #000;
+@tan: #fde9c4;
+@yellow: #f5dfae;
+@pink: #f5c5af;
+@red: #f89fa1;
+@green: #b7cfaf;
+
+#States{
+[ISO!="USA"] {polygon-fill:@tan; //polygon-opacity:0.75;
+  }
+[ISO ="USA"] {
+    line-width:2;
+    line-dasharray:3,3;
+    line-opacity: 0.25;
+    line-color:@black;
+    comp-op: multiply;
+    //polygon-opacity:0.5;
+  }
+  
+[NAME_1='Washington'] { polygon-fill:@green;}
+[NAME_1='Oregon'] { polygon-fill:@red;}
+[NAME_1='California'] { polygon-fill:@yellow;}
+[NAME_1='Montana'] { polygon-fill:@yellow;}
+[NAME_1='Idaho'] { polygon-fill:@pink;}
+[NAME_1='Nevada'] { polygon-fill:@green;}
+[NAME_1='Arizona'] { polygon-fill:@pink;}
+[NAME_1='Wyoming'] { polygon-fill:@green;}
+[NAME_1='Utah'] { polygon-fill:@red;}
+[NAME_1='New Mexico'] { polygon-fill:@green;}
+[NAME_1='Colorado'] { polygon-fill:@yellow;}
+[NAME_1='Texas'] { polygon-fill:@red;}
+[NAME_1='Oklahoma'] { polygon-fill:@pink;}
+[NAME_1='Kansas'] { polygon-fill:@green;}
+[NAME_1='Nebraska'] { polygon-fill:@red;}
+[NAME_1='South Dakota'] { polygon-fill:@pink;}
+[NAME_1='North Dakota'] { polygon-fill:@green;}
+[NAME_1='Louisiana'] { polygon-fill:@pink;}
+[NAME_1='Arkansas'] { polygon-fill:@green;}
+[NAME_1='Missouri'] { polygon-fill:@yellow;}
+[NAME_1='Iowa'] { polygon-fill:@green;}
+[NAME_1='Minnesota'] { polygon-fill:@yellow;}
+[NAME_1='Wisconsin'] { polygon-fill:@red;}
+[NAME_1='Illinois'] { polygon-fill:@pink;}
+[NAME_1='Mississippi'] { polygon-fill:@yellow;}
+[NAME_1='Alabama'] { polygon-fill:@green;}
+[NAME_1='Florida'] { polygon-fill:@red;}
+[NAME_1='Georgia'] { polygon-fill:@pink;}
+[NAME_1='South Carolina'] { polygon-fill:@green;}
+[NAME_1='North Carolina'] { polygon-fill:@yellow;}
+[NAME_1='Tennessee'] { polygon-fill:@red;}
+[NAME_1='Kentucky'] { polygon-fill:@green;}
+[NAME_1='Virginia'] { polygon-fill:@pink;}
+[NAME_1='Indiana'] { polygon-fill:@yellow;}
+[NAME_1='Michigan'] { polygon-fill:@green;}
+[NAME_1='Ohio'] { polygon-fill:@red;}
+[NAME_1='West Virginia'] { polygon-fill:@yellow;}
+[NAME_1='Maryland'] { polygon-fill:@green;}
+[NAME_1='Pennsylvania'] { polygon-fill:@pink;}
+[NAME_1='Delaware'] { polygon-fill:@red;}
+[NAME_1='New Jersey'] { polygon-fill:@yellow;}
+[NAME_1='New York'] { polygon-fill:@green;}
+[NAME_1='Connecticut'] { polygon-fill:@pink;}
+[NAME_1='Rhode Island'] { polygon-fill:@red;}
+[NAME_1='Massachusetts'] { polygon-fill:@yellow;}
+[NAME_1='Vermont'] { polygon-fill:@red;}
+[NAME_1='New Hampshire'] { polygon-fill:@green;}
+[NAME_1='Maine'] { polygon-fill:@pink;}
+[NAME_1='Alaska'] { polygon-fill:@green;}
+[NAME_1='Hawaii'] { polygon-fill:@red;}
+}
+//#roads[Type=~".* Highway"] { /* style */ }
