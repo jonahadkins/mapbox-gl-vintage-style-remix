@@ -1,8 +1,10 @@
-# mapbox-gl-vintage-style
+# mapbox-gl-vintage-style [[REMIX]]
 
 Vintage map style (GL) for [Mapbox Studio](https://www.mapbox.com/mapbox-studio/)
 
-### [Live map](https://api.mapbox.com/styles/v1/mslee/cif5p01n202nisaktvljx9mv3.html?title=true&access_token=pk.eyJ1IjoibXNsZWUiLCJhIjoiclpiTWV5SSJ9.P_h8r37vD8jpIH1A6i1VRg#3.29/39.44/-93.30)
+### [Original Live map](https://api.mapbox.com/styles/v1/mslee/cif5p01n202nisaktvljx9mv3.html?title=true&access_token=pk.eyJ1IjoibXNsZWUiLCJhIjoiclpiTWV5SSJ9.P_h8r37vD8jpIH1A6i1VRg#3.29/39.44/-93.30)  
+
+### [Remixed Live map](http://jonahadkins.github.io/mapbox-gl-vintage-style-remix)  
 
 ## Usage
 
