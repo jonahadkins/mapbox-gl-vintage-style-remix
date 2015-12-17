@@ -25,12 +25,14 @@
         box-sizing: border-box;
         border-color: #000;
         border-width: medium;
+        border-style: dotted;
         padding: 8px 24px;
         font-family: 'Rye', latin;
         font-size: 9pt;
         color: #000;
         text-align: center;
         background: rgba(240, 220, 200, 0.9);
+        background-image: url("_assets/texture_64.svg");
         -webkit-border-radius: 4px;
         border-radius: 4px;
         z-index: 9999;
@@ -51,7 +53,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/jonahadkins/cii6rw43v000p79m2yvbzjx3y',
     center: [-95.69, 39.92],
-    pitch: 25, // pitch in degrees
+    pitch: 5, // pitch in degrees
     bearing: 0, // bearing in degrees
     zoom: 4, // starting zoom
     //attributionControl: true,
